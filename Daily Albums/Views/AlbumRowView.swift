@@ -14,15 +14,15 @@ struct AlbumRowView: View {
     var body: some View {
         
         HStack {
-          
+            
             VStack(alignment: .leading) {
                 Text(albums.album)
                 Text("\(albums.artist) - \(String(albums.year))")
                     .foregroundColor(.secondary)
             }
             
-          
-       
+            
+            
         }
     }
 }

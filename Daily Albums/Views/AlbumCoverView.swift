@@ -40,7 +40,7 @@ struct AlbumCoverView: View {
                     .aspectRatio(contentMode: .fill)
                     .cornerRadius(20)
                     .padding(.bottom)
-             
+                
                 
                 
                 
